@@ -100,7 +100,7 @@ async def delete_product(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # 🚀 Головна функція
 def main():
-    app = Application.builder().token("YOUR_BOT_TOKEN").build()
+    app = Application.builder().token("7944944504:AAF-nb0PGy_tjqT62i-712DlVXT8jOSJy9E").build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("products", show_products))
